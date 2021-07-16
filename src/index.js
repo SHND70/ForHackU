@@ -131,6 +131,12 @@
 	function add(){
 		eqlNum.value = parseFloat(midNum[0].value) + parseFloat(midNum[1].value);
 	}
+
+	//引算
+	function sub(){
+		eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
+	}
+	
 	/* 演習1 ここまで */
 
 	/* TODO: 演習2 以降は下記に自由に記入 */
@@ -147,5 +153,6 @@
 		eqlFlag = false;
 		midNumKey = 0;
 	}
+
 
 }());
