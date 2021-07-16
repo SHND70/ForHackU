@@ -38,6 +38,11 @@
 
 		// ac のイベントハンドラ
 		document.getElementById("clr").addEventListener("click",allClear,false);
+
+		//掛け算用の関数 mul
+		function mul(){
+			eqlNum.value = parseFloat(midNum[0].value) * parseFloat(midNum[1].value);
+		}
 	}
 
 	// 数字キーが押された際の処理
