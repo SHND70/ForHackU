@@ -146,4 +146,9 @@
 		midNumKey = 0;
 	}
 
+	//引算
+	function sub(){
+
+	}
+
 }());
