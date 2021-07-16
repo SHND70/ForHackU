@@ -128,7 +128,12 @@
 	/* 演習の編集範囲 はじめ */
 
 	/* 演習1 ここから */
-	// TODO: このコメントアウトを削除して書く
+
+	//引算
+	function sub(){
+		eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
+	}
+	
 	/* 演習1 ここまで */
 
 	/* TODO: 演習2 以降は下記に自由に記入 */
@@ -146,9 +151,5 @@
 		midNumKey = 0;
 	}
 
-	//引算
-	function sub(){
-
-	}
 
 }());
